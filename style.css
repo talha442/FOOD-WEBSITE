@@ -117,3 +117,31 @@ header .navigation li a {
 header .navigation li a:hover {
     color: #ff0157;
 }
+
+section {
+    padding: 100px;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50 {
+    position: relative;
+    width: 48%;
+}
+
+.titleText {
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.titleText span{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
