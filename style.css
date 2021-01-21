@@ -202,12 +202,11 @@ section {
     object-fit: cover;
 }
 
-.menu .content .box .text{
+.menu .content .box .text {
     padding: 15px 0 5px;
 }
 
-.menu .content .box .text h3{
+.menu .content .box .text h3 {
     font-weight: 400;
     color: #111;
-    
 }
