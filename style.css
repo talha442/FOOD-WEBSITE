@@ -327,7 +327,7 @@ section {
     margin-top: 50px;
 }
 
-.contactForm h3{
+.contactForm h3 {
     color: #111;
     font-size: 1.2em;
     margin-bottom: 20px;
@@ -335,17 +335,18 @@ section {
 }
 
 
-.contactForm .inputBox{
+.contactForm .inputBox {
     position: relative;
     width: 100%;
     margin-top: 20px;
 }
 
-.contactForm .inputBox input{
+.contactForm .inputBox input {
     width: 100%;
     border: 1px solid #555;
     padding: 10px;
     color: #111;
     outline: none;
-    
+
 }
+
