@@ -15,6 +15,7 @@
     <!--Header Started-->
     <header>
         <a href="#" class="logo">Food<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
             <li><a href="#banner">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -256,6 +257,14 @@
             const header = document.querySelector('header');
             header.classList.toggle("sticky", window.scrollY > 0);
         });
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+
+        }
     </script>
 </body>
 
