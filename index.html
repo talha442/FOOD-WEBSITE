@@ -17,12 +17,12 @@
         <a href="#" class="logo">Food<span>.</span></a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
-            <li><a href="#banner">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#expert">Expert</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
         </ul>
     </header>
     <section class="banner" id="banner">
@@ -241,7 +241,7 @@
 
     <!--Copy Right Started-->
     <div class="copyrightText">
-        <p>Copyright 2021 Food. All Right Reserved</p>
+        <p>Copyright 2021 <span>Food</span>. All Right Reserved</p>
         <div class="links">
             <a href="https://web.facebook.com/profile.php?id=100009426633452" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/talha.faisal2000/?hl=en" class="fa fa-instagram"></a>
@@ -251,7 +251,7 @@
     </div>
     <!--Copy Right Ended-->
 
-
+    <!--JavaScript Code Started-->
     <script type="text/javascript">
         window.addEventListener('scroll', function () {
             const header = document.querySelector('header');
@@ -263,9 +263,9 @@
             const navigation = document.querySelector('.navigation');
             menuToggle.classList.toggle('active');
             navigation.classList.toggle('active');
-
         }
     </script>
+    <!--JavaScript Code Ended-->
 </body>
 
 </html>
