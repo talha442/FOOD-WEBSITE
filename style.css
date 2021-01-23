@@ -341,12 +341,29 @@ section {
     margin-top: 20px;
 }
 
-.contactForm .inputBox input {
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
     width: 100%;
     border: 1px solid #555;
     padding: 10px;
     color: #111;
     outline: none;
-
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
 }
 
+.contactForm .inputBox input[type="submit"] {
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
